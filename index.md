@@ -243,6 +243,15 @@ This extension provides a promising direction for deeper research despite the CR
 
 ---
 
+### 5. The Research Extension
+
+The metric-learning extension evaluates how well a simple distance-based classifier (k-NN) performs when applied to the embeddings extracted from the CRNN’s penultimate layer. This approach substantially improves the baseline CRNN softmax classifier, increasing the test accuracy from 48.25% → 52.08% and the macro-F1 score from 0.458 → 0.510.
+
+Performance gains are consistent across several difficult scene classes. For example, the k-NN variant improves F1-scores to 0.45 on airport, 0.54 on bus, 0.51 on metro, and 0.78 on park, while maintaining strong results on street_traffic (F1 = 0.63). The macro-averaged precision, recall, and F1 for the k-NN system are approximately 0.51, 0.53, and 0.51, respectively.
+
+These results indicate that although the CRNN’s softmax classifier underperforms relative to classical models, the embedding representation learned by the CRNN is structurally meaningful and useful for downstream classification. By replacing the final linear softmax layer with a simple k-NN classifier, the system recovers several percentage points of accuracy and macro-F1, narrowing the performance gap to the Random Forest model.
+
+Overall, the study shows that SVM remains the strongest model, but RF and CRNN also provide competitive performance, with the CRNN’s embeddings in particular offering promise for metric-learning or few-shot extensions.
 
 ---
 
