@@ -1,7 +1,4 @@
----
-title: Acoustic Scene Classification
----
-<link rel="stylesheet" href="style.css">
+
 # Acoustic Scene Classification: Comparing SVM, Random Forest, and CRNN Models
 
 **Authors:**  
