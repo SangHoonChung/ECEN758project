@@ -2,7 +2,9 @@
 # Acoustic Scene Classification: Comparing SVM, Random Forest, and CRNN Models
 
 **Authors:**  
-_(to be added)_
+Sang Hoon Chung, London Glenn, Keyanu Maloney, Hao Zhu  
+
+*Department of Electrical & Computer Engineering, Texas A&M University*  
 
 ---
 
