@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
+<div id="main-wrapper">
+
 # Acoustic Scene Classification: Comparing SVM, Random Forest, and CRNN Models
 
 **Authors:**  
@@ -250,3 +252,4 @@ This extension provides a promising direction for deeper research despite the CR
 - **Dataset link:** https://soundata.readthedocs.io/en/stable/source/soundata.html#soundata.annotations.Tags
 - **GitHub repository:** https://github.com/haozi672/ECEN-758-Project
 
+</div>
